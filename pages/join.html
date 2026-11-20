@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join a Run - Entoto Dawn Runners</title>
+</head>
+<body>
+  <header>
+    <h1>Join a Weekend Run</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="routes.html">Trail Routes</a></li>
+        <li><a href="join.html">Join a Run</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Runner Registration</h2>
+      <p>Let us know which pace group you plan to join so our run captains can look out for you at the trailhead.</p>
+
+      <form action="#" method="post">
+        <p>
+          <label for="runner-name">Full Name (required):</label><br>
+          <input type="text" id="runner-name" name="runner_name" required>
+        </p>
+
+        <p>
+          <label for="runner-email">Email Address (required):</label><br>
+          <input type="email" id="runner-email" name="runner_email" required>
+        </p>
+
+        <p>
+          <label for="route-select">Preferred Route:</label><br>
+          <select id="route-select" name="route_select">
+            <option value="eucalyptus">Eucalyptus Loop (6 km)</option>
+            <option value="observatory">Observatory Ridge (12 km)</option>
+            <option value="sululta">Sululta Overlook (18 km)</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="notes">Running Experience or Notes:</label><br>
+          <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Sign Up for Run</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Prefer email? Contact <a href="mailto:run@entotodawn.example">run@entotodawn.example</a>.</p>
+    <p>&copy; 2026 Entoto Dawn Runners</p>
+  </footer>
+</body>
+</html>
